@@ -1,0 +1,23 @@
+PODS:
+  - DateTools (1.7.0)
+  - MagicalRecord (2.3.2):
+    - MagicalRecord/Core (= 2.3.2)
+  - MagicalRecord/Core (2.3.2)
+  - Masonry (1.0.1)
+  - SVProgressHUD (2.0.3)
+
+DEPENDENCIES:
+  - DateTools
+  - MagicalRecord
+  - Masonry
+  - SVProgressHUD
+
+SPEC CHECKSUMS:
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  MagicalRecord: 53bed74b4323b930992a725be713e53b37d19755
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
+
+PODFILE CHECKSUM: d03171abf788f5d488698becab52885e8c7a472a
+
+COCOAPODS: 1.0.1

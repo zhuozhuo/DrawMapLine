@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ZHRunViewController">
+            <connections>
+                <outlet property="runButton" destination="A2E-3x-RBh" id="wc5-wc-uLT"/>
+                <outlet property="showLabel" destination="ycp-w5-D1S" id="u6Z-0h-ysP"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="A2E-3x-RBh">
+                    <rect key="frame" x="251" y="187" width="99" height="34"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="99" id="cVf-W1-Twv"/>
+                    </constraints>
+                    <state key="normal" title="开始跑步"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ycp-w5-D1S">
+                    <rect key="frame" x="8" y="308" width="584" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="ycp-w5-D1S" firstAttribute="centerX" secondItem="A2E-3x-RBh" secondAttribute="centerX" id="1bn-Vf-O21"/>
+                <constraint firstItem="A2E-3x-RBh" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="187" id="D9m-py-KpY"/>
+                <constraint firstItem="ycp-w5-D1S" firstAttribute="top" secondItem="A2E-3x-RBh" secondAttribute="bottom" constant="87" id="VdT-ro-JeV"/>
+                <constraint firstItem="A2E-3x-RBh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="Y0V-wk-9YL"/>
+                <constraint firstItem="ycp-w5-D1S" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leadingMargin" id="sHC-80-rnw"/>
+            </constraints>
+        </view>
+    </objects>
+</document>
